@@ -1,0 +1,18 @@
+/*Principal*/
+body {
+	background: #D7F4EE;
+    
+}
+.atome {
+	margin: 0;
+	padding: 0;
+	padding-left: 144px;
+    
+}
+.electron {
+	position: absolute;
+	left: 31%;
+	top: 10%;
+	width: 54px;
+	height: 54px;
+}
