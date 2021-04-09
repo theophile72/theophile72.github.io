@@ -1,0 +1,14 @@
+#back1 {
+	display: block;
+
+}
+#back2 {
+	display: none;
+
+}
+#fleche1 {
+	position: absolute;
+	left: 80%;
+	top: 5%;
+	transform: scale(0.5);
+}

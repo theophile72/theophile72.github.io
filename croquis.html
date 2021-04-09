@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="croquis.css">
+        <title>Théophile</title>
+    </head>
+
+    <body>
+        <img src="back1.png" id="back1"/>
+        <img src="back2.png" id="back2"/>
+
+
+        <img src="fleche1.png" id="fleche1"/>
+    
+
+        <script>
+            document.getElementById('fleche1').addEventListener('click', function() {
+               if(document.getElementById("back1").style.display == "block") {
+                  document.getElementById("back1").style.display = "none";
+                  document.getElementById("back2").style.display = "block";
+                  document.getElementById("fleche1").src = "fleche2.png";
+
+
+                }
+ 
+                else{
+                  document.getElementById("back1").style.display = "block";
+                  document.getElementById("back2").style.display = "none";
+                  document.getElementById("fleche1").src = "fleche1.png";
+
+
+                 }
+            });
+
+
+        </script>
+
+
+  
+
+    </body>
+
+
+</html>

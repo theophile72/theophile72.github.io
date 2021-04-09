@@ -1,0 +1,21 @@
+body {
+	background: url('fond.png');
+	background-repeat: no-repeat;
+}
+#in1 {
+	position: absolute;
+    left:58%;
+    top:27%;
+}
+#in2 {
+	position: absolute;
+    left:34%;
+    top:27%;
+}
+#in1:hover {
+	transform: scale(1.1);
+}
+#in2:hover {
+	transform: scale(1.1);
+
+}
