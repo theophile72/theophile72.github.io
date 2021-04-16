@@ -1,0 +1,53 @@
+ #titre {
+	padding-left: 330px;
+	padding-bottom: 30px;
+}
+.aqua1,.aqua2,.aqua3,.aqua4 {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.aqua1 {
+	padding-left: 320px;
+	padding-bottom: 10px;
+}
+.aqua2 {
+	padding-left: 320px;
+	padding-bottom: 10px;
+
+}
+.aqua3 {
+	padding-left: 320px;
+	padding-bottom: 10px;
+
+}
+.aqua4 {
+	padding-left: 320px;
+	padding-bottom: 10px;
+
+}
+div img {
+	width: 200px;
+	height: 200px;
+}
+img {
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+#image1:hover,#image2:hover,#image3:hover,#image4:hover,#image5:hover,#image6:hover,#image7:hover,#image8:hover,#image9:hover,#image10:hover,#image11:hover,#image12:hover,#image13:hover,#image14:hover,#image15:hover,#image16:hover {
+	
+     filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+
+}
+ #sign {
+	padding-right: 17px;
+	padding-top: 30px;
+}
+
