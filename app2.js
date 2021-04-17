@@ -60,7 +60,7 @@ document.getElementById('image4').addEventListener('click', function() {
 	}
  
     else{
-	    document.getElementById("image4").style.width ="800px";
+	    document.getElementById("image4").style.width ="500px";
         document.getElementById("image4").style.height ="600px";
         document.getElementById("image4").style.filter ="grayscale(0%)";
 
