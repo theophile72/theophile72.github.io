@@ -69,7 +69,7 @@ document.getElementById('image4').addEventListener('click', function() {
 
 //Image Click
 document.getElementById('image5').addEventListener('click', function() {
-	if(document.getElementById("image5").style.width == "800px") {
+	if(document.getElementById("image5").style.width == "1200px") {
 	    document.getElementById("image5").style.width ="200px";
         document.getElementById("image5").style.height ="200px";
 
