@@ -42,8 +42,8 @@ body {
 }
 div #video {
 	position: absolute;
-	top: -49%;
-	left: 40%;
+	top: -24%;
+	left: 46%;
 	transform: scale(0.7);
 	opacity: 0.3;
 
