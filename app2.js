@@ -77,7 +77,7 @@ document.getElementById('image5').addEventListener('click', function() {
 	}
  
     else{
-	    document.getElementById("image5").style.width ="800px";
+	    document.getElementById("image5").style.width ="1200px";
         document.getElementById("image5").style.height ="600px";
         document.getElementById("image5").style.filter ="grayscale(0%)";
 
