@@ -53,14 +53,14 @@ document.getElementById('image3').addEventListener('click', function() {
 //Image Click
 document.getElementById('image4').addEventListener('click', function() {
 	if(document.getElementById("image4").style.width == "800px") {
-	    document.getElementById("image4").style.width ="400px";
+	    document.getElementById("image4").style.width ="200px";
         document.getElementById("image4").style.height ="200px";
 
 
 	}
  
     else{
-	    document.getElementById("image4").style.width ="800px";
+	    document.getElementById("image4").style.width ="500px";
         document.getElementById("image4").style.height ="600px";
         document.getElementById("image4").style.filter ="grayscale(0%)";
 
